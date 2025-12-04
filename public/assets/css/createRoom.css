@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body {
+  min-height: 98vh;
+  background-image: url('../img/backgroundCreateRoom.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Press Start 2p';
+}
+
+.box1 {
+  background: transparent;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 15px;
+}
+
+.title {
+  text-align: center;
+  background-color: #6c1f52;
+  border-radius: 10px;
+}
+
+.btnNextStep,
+.btnNextQuestion,
+.btnBackQuestion {
+  background-color: #6f3b25;
+  border: #522a1c 3px solid;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  height: 80px;
+}
+
+.btnNextStep:hover,
+.btnNextQuestion:hover,
+.btnBackQuestion:hover {
+  background-color: #8c4e2f;
+  border: #522a1c 3px solid;
+}
+
+.btnNextStep:active,
+.btnNextQuestion:active,
+.btnBackQuestion:active {
+  background-color: #5a2e1f !important;
+  border: #522a1c 3px solid !important;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #6c1f52;
+  border-color: #6c1f52;
+}
+
+input,
+select {
+  background-color: #887d87;
+  border: none;
+  border-radius: 0.5rem;
+  height: 40px;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  min-height: 98vh;
+  background-image: url('../img/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.back {
+  text-decoration: none;
+  font-family: 'Press Start 2p';
+  color: #ffff;
+  transition: 0.2s;
+  width: max-content;
+}
+
+.back:hover {
+  font-weight: bold;
+  background-color: #ffff;
+  color: #452457;
+}
+
+.img {
+  width: 350px;
+  margin-bottom: 1.5rem;
+}
+
+.formBox {
+  width: 450px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 15px;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.inputWidth {
+  width: 100%;
+}
+
+.submit-btn {
+  background-color: #efa43a;
+}

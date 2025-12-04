@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.link {
+  text-decoration: none;
+  font-family: 'Press Start 2p';
+  color: #ffff;
+  position: relative;
+}
+
+.link::after {
+  content: ' ';
+  background: white;
+  height: 3px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -6px;
+  border-radius: 6px;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: 0.4s;
+}
+
+.link:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.link.active::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.enter {
+  text-decoration: none;
+  font-family: 'Press Start 2p';
+  color: #ffff;
+  transition: 0.2s;
+}
+
+.enter:hover {
+  font-weight: bold;
+  background-color: #ffff;
+  color: #452457;
+}
+
+#logoImg {
+  width: 150px;
+}

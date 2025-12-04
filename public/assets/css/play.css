@@ -1,0 +1,7 @@
+body {
+  min-height: 98vh;
+  background-image: url('../img/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

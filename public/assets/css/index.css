@@ -1,5 +1,80 @@
-body {
-    background-image: url("../img/background1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.section {
+  min-height: 110vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#start {
+  background-image: url('../img/background.png');
+  padding-top: 14rem;
+}
+
+#logoImg2 {
+  width: 1300px;
+}
+
+#about {
+  background-image: url('../img/background2.png');
+}
+
+#gradient0 {
+  height: 50px;
+  background-color: #45224a;
+}
+
+#gradient1 {
+  height: 50px;
+  background-color: #3f2046;
+}
+
+#gradient2 {
+  height: 50px;
+  background-color: #381e41;
+}
+
+#gradient3 {
+  height: 50px;
+  background-color: #331c3d;
+}
+
+#history {
+  background-color: #2f1b3a;
+}
+
+#gradient4 {
+  height: 50px;
+  background-color: #49374d;
+}
+
+#gradient5 {
+  height: 50px;
+  background-color: #61515e;
+}
+
+#gradient6 {
+  height: 50px;
+  background-color: #796c6f;
+}
+
+#characters {
+  background-image: url('../img/background3.png');
+}
+
+.title {
+  width: 1300px;
+  height: auto;
+}
+
+.vt323 {
+  font-family: 'Vt323';
 }
