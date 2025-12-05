@@ -17,6 +17,8 @@ $logado = $_SESSION['logado'] ?? false;
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="shortcut icon" href="assets/ico/ico.png" type="image/x-icon">
 </head>
 
 <body>
@@ -79,12 +81,88 @@ $logado = $_SESSION['logado'] ?? false;
         <section id="gradient5"></section>
         <section id="gradient6"></section>
 
-        <section class="section" id="characters">
+        <section class="section flex-wrap align-content-start" id="characters">
+            <div class="my-5 pt-5">
+                <img src="assets/img/charactersTitle.png" class="title">
+            </div>
 
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner w">
+                    <div class="carousel-item gap-5 active">
+                        <div class="d-flex">
+                            <div class="d-block">
+                                <img class="cardCharacter w-100 d-block" src="assets/img/kairao.png" alt="">
+                            </div>
+                            <div class="d-block">
+                                <img class="cardCharacter w-100 d-block" src="assets/img/kairona.png" alt="">
+                            </div>
+                            <div class="d-block">
+                                <img class="cardCharacter w-100 d-block" src="assets/img/terragor.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item gap-5">
+                        <div class="d-flex">
+                            <div class="d-block">
+                                <img class="cardCharacter w-100 d-block" src="assets/img/acidon.png" alt="">
+                            </div>
+                            <div class="d-block">
+                                <img class="cardCharacter w-100 d-block" src="assets/img/cifrus.png" alt="">
+                            </div>
+                            <div class="d-block">
+                                <img class="cardCharacter w-100 d-block" src="assets/img/eron.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item gap-5">
+                        <div class="d-flex">
+                            <div class="d-block">
+                                <img class="cardCharacter w-100 d-block" src="assets/img/fortex.png" alt="">
+                            </div>
+                            <div class="d-block">
+                                <img class="cardCharacter w-100 d-block" src="assets/img/syntax.png" alt="">
+                            </div>
+                            <div class="d-block">
+                                <img class="cardCharacter w-100 d-block" src="assets/img/verbex.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control" aria-hidden="true">
+                            <img src="assets/img/left.png" alt="">
+                        </span>
+                        <span class="visually-hidden">Previous</span>
+
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control m" aria-hidden="true">
+                            <img src="assets/img/right.png" alt="">
+                        </span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </section>
     </main>
 
     <script src="assets/js/observer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>

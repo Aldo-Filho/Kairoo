@@ -6,7 +6,7 @@ body::-webkit-scrollbar {
 }
 
 body {
-  min-height: 98vh;
+  min-height: 100vh;
   background-image: url('../img/backgroundCreateRoom.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
 }
 
 .box1 {
-  background: transparent;
+  background: transparent !important;
   border: 4px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px) !important;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -31,11 +31,11 @@ body {
 
 .btnNextStep,
 .btnNextQuestion,
-.btnBackQuestion {
-  background-color: #6f3b25;
-  border: #522a1c 3px solid;
+.btnPrevQuestion,
+.btnSaveRoom {
+  background-color: #6f3b25 !important;
+  border: #522a1c 3px solid !important;
   color: white;
-  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -43,9 +43,8 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
-  width: 200px;
-  height: 80px;
+  transition: 0.3s ease;
+  margin-bottom: 2rem;
 }
 
 .btnNextStep:hover,
@@ -69,9 +68,25 @@ input:focus {
 }
 
 input,
-select {
+select,
+.radio {
   background-color: #887d87;
   border: none;
   border-radius: 0.5rem;
   height: 40px;
+}
+
+.content {
+  width: 550px;
+}
+
+.w {
+  width: 335px;
+}
+
+.code {
+  font-size: 3em;
+  color: #e94560;
+  font-weight: bold;
+  margin-top: 15px;
 }

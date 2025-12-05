@@ -78,3 +78,19 @@ body::-webkit-scrollbar {
 .vt323 {
   font-family: 'Vt323';
 }
+
+.cardCharacter {
+  width: 430px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: relative !important;
+}
+
+.w {
+  width: 1300px;
+}
+
+.m {
+  margin-right: 15rem;
+}

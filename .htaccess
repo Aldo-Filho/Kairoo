@@ -1,0 +1,5 @@
+# Impede o servidor de listar o conteúdo de um diretório
+Options -Indexes
+
+# Redireciona erros 404 para um arquivo específico
+ErrorDocument 404 /erro.php
